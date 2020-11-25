@@ -1,0 +1,674 @@
+[
+  {
+    "name": "Hydrogen",
+    "masse": 1.00794,
+    "ordnungszahl": 1,
+    "symbol": "H"
+  },
+  {
+    "name": "Helium",
+    "masse": 4.0026,
+    "ordnungszahl": 2,
+    "symbol": "He"
+  },
+  {
+    "name": "Lithium",
+    "masse": 6.941,
+    "ordnungszahl": 3,
+    "symbol": "Li"
+  },
+  {
+    "name": "Beryllium",
+    "masse": 9.01218,
+    "ordnungszahl": 4,
+    "symbol": "Be"
+  },
+  {
+    "name": "Boron",
+    "masse": 10.811,
+    "ordnungszahl": 5,
+    "symbol": "B"
+  },
+  {
+    "name": "Carbon",
+    "masse": 12.011,
+    "ordnungszahl": 6,
+    "symbol": "C"
+  },
+  {
+    "name": "Nitrogen",
+    "masse": 14.0067,
+    "ordnungszahl": 7,
+    "symbol": "N"
+  },
+  {
+    "name": "Oxygen",
+    "masse": 15.9994,
+    "ordnungszahl": 8,
+    "symbol": "O"
+  },
+  {
+    "name": "Fluorine",
+    "masse": 18.9984,
+    "ordnungszahl": 9,
+    "symbol": "F"
+  },
+  {
+    "name": "Neon",
+    "masse": 20.1797,
+    "ordnungszahl": 10,
+    "symbol": "Ne"
+  },
+  {
+    "name": "Sodium",
+    "masse": 22.98977,
+    "ordnungszahl": 11,
+    "symbol": "Na"
+  },
+  {
+    "name": "Magnesium",
+    "masse": 24.305,
+    "ordnungszahl": 12,
+    "symbol": "Mg"
+  },
+  {
+    "name": "Aluminum",
+    "masse": 26.98154,
+    "ordnungszahl": 13,
+    "symbol": "Al"
+  },
+  {
+    "name": "Silicon",
+    "masse": 28.0855,
+    "ordnungszahl": 14,
+    "symbol": "Si"
+  },
+  {
+    "name": "Phosphorus",
+    "masse": 30.97376,
+    "ordnungszahl": 15,
+    "symbol": "P"
+  },
+  {
+    "name": "Sulfur",
+    "masse": 32.066,
+    "ordnungszahl": 16,
+    "symbol": "S"
+  },
+  {
+    "name": "Chlorine",
+    "masse": 35.4527,
+    "ordnungszahl": 17,
+    "symbol": "Cl"
+  },
+  {
+    "name": "Potassium",
+    "masse": 39.0983,
+    "ordnungszahl": 19,
+    "symbol": "K"
+  },
+  {
+    "name": "Argon",
+    "masse": 39.948,
+    "ordnungszahl": 18,
+    "symbol": "Ar"
+  },
+  {
+    "name": "Calcium",
+    "masse": 40.078,
+    "ordnungszahl": 20,
+    "symbol": "Ca"
+  },
+  {
+    "name": "Scandium",
+    "masse": 44.9559,
+    "ordnungszahl": 21,
+    "symbol": "Sc"
+  },
+  {
+    "name": "Titanium",
+    "masse": 47.88,
+    "ordnungszahl": 22,
+    "symbol": "Ti"
+  },
+  {
+    "name": "Vanadium",
+    "masse": 50.9415,
+    "ordnungszahl": 23,
+    "symbol": "V"
+  },
+  {
+    "name": "Chromium",
+    "masse": 51.996,
+    "ordnungszahl": 24,
+    "symbol": "Cr"
+  },
+  {
+    "name": "Manganese",
+    "masse": 54.938,
+    "ordnungszahl": 25,
+    "symbol": "Mn"
+  },
+  {
+    "name": "Iron",
+    "masse": 55.847,
+    "ordnungszahl": 26,
+    "symbol": "Fe"
+  },
+  {
+    "name": "Nickel",
+    "masse": 58.6934,
+    "ordnungszahl": 28,
+    "symbol": "Ni"
+  },
+  {
+    "name": "Cobalt",
+    "masse": 58.9332,
+    "ordnungszahl": 27,
+    "symbol": "Co"
+  },
+  {
+    "name": "Copper",
+    "masse": 63.546,
+    "ordnungszahl": 29,
+    "symbol": "Cu"
+  },
+  {
+    "name": "Zinc",
+    "masse": 65.39,
+    "ordnungszahl": 30,
+    "symbol": "Zn"
+  },
+  {
+    "name": "Gallium",
+    "masse": 69.723,
+    "ordnungszahl": 31,
+    "symbol": "Ga"
+  },
+  {
+    "name": "Germanium",
+    "masse": 72.61,
+    "ordnungszahl": 32,
+    "symbol": "Ge"
+  },
+  {
+    "name": "Arsenic",
+    "masse": 74.9216,
+    "ordnungszahl": 33,
+    "symbol": "As"
+  },
+  {
+    "name": "Selenium",
+    "masse": 78.96,
+    "ordnungszahl": 34,
+    "symbol": "Se"
+  },
+  {
+    "name": "Bromine",
+    "masse": 79.904,
+    "ordnungszahl": 35,
+    "symbol": "Br"
+  },
+  {
+    "name": "Krypton",
+    "masse": 83.8,
+    "ordnungszahl": 36,
+    "symbol": "Kr"
+  },
+  {
+    "name": "Rubidium",
+    "masse": 85.4678,
+    "ordnungszahl": 37,
+    "symbol": "Rb"
+  },
+  {
+    "name": "Strontium",
+    "masse": 87.62,
+    "ordnungszahl": 38,
+    "symbol": "Sr"
+  },
+  {
+    "name": "Yttrium",
+    "masse": 88.9059,
+    "ordnungszahl": 39,
+    "symbol": "Y"
+  },
+  {
+    "name": "Zirconium",
+    "masse": 91.224,
+    "ordnungszahl": 40,
+    "symbol": "Zr"
+  },
+  {
+    "name": "Niobium",
+    "masse": 92.9064,
+    "ordnungszahl": 41,
+    "symbol": "Nb"
+  },
+  {
+    "name": "Molybdenum",
+    "masse": 95.94,
+    "ordnungszahl": 42,
+    "symbol": "Mo"
+  },
+  {
+    "name": "Technetium",
+    "masse": 98,
+    "ordnungszahl": 43,
+    "symbol": "Tc"
+  },
+  {
+    "name": "Ruthenium",
+    "masse": 101.07,
+    "ordnungszahl": 44,
+    "symbol": "Ru"
+  },
+  {
+    "name": "Rhodium",
+    "masse": 102.9055,
+    "ordnungszahl": 45,
+    "symbol": "Rh"
+  },
+  {
+    "name": "Palladium",
+    "masse": 106.42,
+    "ordnungszahl": 46,
+    "symbol": "Pd"
+  },
+  {
+    "name": "Silver",
+    "masse": 107.868,
+    "ordnungszahl": 47,
+    "symbol": "Ag"
+  },
+  {
+    "name": "Cadmium",
+    "masse": 112.41,
+    "ordnungszahl": 48,
+    "symbol": "Cd"
+  },
+  {
+    "name": "Indium",
+    "masse": 114.82,
+    "ordnungszahl": 49,
+    "symbol": "In"
+  },
+  {
+    "name": "Tin",
+    "masse": 118.71,
+    "ordnungszahl": 50,
+    "symbol": "Sn"
+  },
+  {
+    "name": "Antimony",
+    "masse": 121.757,
+    "ordnungszahl": 51,
+    "symbol": "Sb"
+  },
+  {
+    "name": "Iodine",
+    "masse": 126.9045,
+    "ordnungszahl": 53,
+    "symbol": "I"
+  },
+  {
+    "name": "Tellurium",
+    "masse": 127.6,
+    "ordnungszahl": 52,
+    "symbol": "Te"
+  },
+  {
+    "name": "Xenon",
+    "masse": 131.29,
+    "ordnungszahl": 54,
+    "symbol": "Xe"
+  },
+  {
+    "name": "Cesium",
+    "masse": 132.9054,
+    "ordnungszahl": 55,
+    "symbol": "Cs"
+  },
+  {
+    "name": "Barium",
+    "masse": 137.33,
+    "ordnungszahl": 56,
+    "symbol": "Ba"
+  },
+  {
+    "name": "Lanthanum",
+    "masse": 138.9055,
+    "ordnungszahl": 57,
+    "symbol": "La"
+  },
+  {
+    "name": "Cerium",
+    "masse": 140.12,
+    "ordnungszahl": 58,
+    "symbol": "Ce"
+  },
+  {
+    "name": "Praseodymium",
+    "masse": 140.9077,
+    "ordnungszahl": 59,
+    "symbol": "Pr"
+  },
+  {
+    "name": "Neodymium",
+    "masse": 144.24,
+    "ordnungszahl": 60,
+    "symbol": "Nd"
+  },
+  {
+    "name": "Promethium",
+    "masse": 145,
+    "ordnungszahl": 61,
+    "symbol": "Pm"
+  },
+  {
+    "name": "Samarium",
+    "masse": 150.36,
+    "ordnungszahl": 62,
+    "symbol": "Sm"
+  },
+  {
+    "name": "Europium",
+    "masse": 151.965,
+    "ordnungszahl": 63,
+    "symbol": "Eu"
+  },
+  {
+    "name": "Gadolinium",
+    "masse": 157.25,
+    "ordnungszahl": 64,
+    "symbol": "Gd"
+  },
+  {
+    "name": "Terbium",
+    "masse": 158.9253,
+    "ordnungszahl": 65,
+    "symbol": "Tb"
+  },
+  {
+    "name": "Dysprosium",
+    "masse": 162.5,
+    "ordnungszahl": 66,
+    "symbol": "Dy"
+  },
+  {
+    "name": "Holmium",
+    "masse": 164.9303,
+    "ordnungszahl": 67,
+    "symbol": "Ho"
+  },
+  {
+    "name": "Erbium",
+    "masse": 167.26,
+    "ordnungszahl": 68,
+    "symbol": "Er"
+  },
+  {
+    "name": "Thulium",
+    "masse": 168.9342,
+    "ordnungszahl": 69,
+    "symbol": "Tm"
+  },
+  {
+    "name": "Ytterbium",
+    "masse": 173.04,
+    "ordnungszahl": 70,
+    "symbol": "Yb"
+  },
+  {
+    "name": "Lutetium",
+    "masse": 174.967,
+    "ordnungszahl": 71,
+    "symbol": "Lu"
+  },
+  {
+    "name": "Hafnium",
+    "masse": 178.49,
+    "ordnungszahl": 72,
+    "symbol": "Hf"
+  },
+  {
+    "name": "Tantalum",
+    "masse": 180.9479,
+    "ordnungszahl": 73,
+    "symbol": "Ta"
+  },
+  {
+    "name": "Tungsten",
+    "masse": 183.85,
+    "ordnungszahl": 74,
+    "symbol": "W"
+  },
+  {
+    "name": "Rhenium",
+    "masse": 186.207,
+    "ordnungszahl": 75,
+    "symbol": "Re"
+  },
+  {
+    "name": "Osmium",
+    "masse": 190.2,
+    "ordnungszahl": 76,
+    "symbol": "Os"
+  },
+  {
+    "name": "Iridium",
+    "masse": 192.22,
+    "ordnungszahl": 77,
+    "symbol": "Ir"
+  },
+  {
+    "name": "Platinum",
+    "masse": 195.08,
+    "ordnungszahl": 78,
+    "symbol": "Pt"
+  },
+  {
+    "name": "Gold",
+    "masse": 196.9665,
+    "ordnungszahl": 79,
+    "symbol": "Au"
+  },
+  {
+    "name": "Mercury",
+    "masse": 200.59,
+    "ordnungszahl": 80,
+    "symbol": "Hg"
+  },
+  {
+    "name": "Thallium",
+    "masse": 204.383,
+    "ordnungszahl": 81,
+    "symbol": "Tl"
+  },
+  {
+    "name": "Lead",
+    "masse": 207.2,
+    "ordnungszahl": 82,
+    "symbol": "Pb"
+  },
+  {
+    "name": "Bismuth",
+    "masse": 208.9804,
+    "ordnungszahl": 83,
+    "symbol": "Bi"
+  },
+  {
+    "name": "Polonium",
+    "masse": 209,
+    "ordnungszahl": 84,
+    "symbol": "Po"
+  },
+  {
+    "name": "Astatine",
+    "masse": 210,
+    "ordnungszahl": 85,
+    "symbol": "At"
+  },
+  {
+    "name": "Radon",
+    "masse": 222,
+    "ordnungszahl": 86,
+    "symbol": "Rn"
+  },
+  {
+    "name": "Francium",
+    "masse": 223,
+    "ordnungszahl": 87,
+    "symbol": "Fr"
+  },
+  {
+    "name": "Radium",
+    "masse": 226.0254,
+    "ordnungszahl": 88,
+    "symbol": "Ra"
+  },
+  {
+    "name": "Actinium",
+    "masse": 227,
+    "ordnungszahl": 89,
+    "symbol": "Ac"
+  },
+  {
+    "name": "Protactinium",
+    "masse": 231.0359,
+    "ordnungszahl": 91,
+    "symbol": "Pa"
+  },
+  {
+    "name": "Thorium",
+    "masse": 232.0381,
+    "ordnungszahl": 90,
+    "symbol": "Th"
+  },
+  {
+    "name": "Neptunium",
+    "masse": 237.0482,
+    "ordnungszahl": 93,
+    "symbol": "Np"
+  },
+  {
+    "name": "Uranium",
+    "masse": 238.029,
+    "ordnungszahl": 92,
+    "symbol": "U"
+  },
+  {
+    "name": "Americium",
+    "masse": 243,
+    "ordnungszahl": 95,
+    "symbol": "Am"
+  },
+  {
+    "name": "Plutonium",
+    "masse": 244,
+    "ordnungszahl": 94,
+    "symbol": "Pu"
+  },
+  {
+    "name": "Berkelium",
+    "masse": 247,
+    "ordnungszahl": 97,
+    "symbol": "Bk"
+  },
+  {
+    "name": "Curium",
+    "masse": 247,
+    "ordnungszahl": 96,
+    "symbol": "Cm"
+  },
+  {
+    "name": "Californium",
+    "masse": 251,
+    "ordnungszahl": 98,
+    "symbol": "Cf"
+  },
+  {
+    "name": "Einsteinium",
+    "masse": 252,
+    "ordnungszahl": 99,
+    "symbol": "Es"
+  },
+  {
+    "name": "Fermium",
+    "masse": 257,
+    "ordnungszahl": 100,
+    "symbol": "Fm"
+  },
+  {
+    "name": "Mendelevium",
+    "masse": 258,
+    "ordnungszahl": 101,
+    "symbol": "Md"
+  },
+  {
+    "name": "Nobelium",
+    "masse": 259,
+    "ordnungszahl": 102,
+    "symbol": "No"
+  },
+  {
+    "name": "Rutherfordium",
+    "masse": 261,
+    "ordnungszahl": 104,
+    "symbol": "Rf"
+  },
+  {
+    "name": "Bohrium",
+    "masse": 262,
+    "ordnungszahl": 107,
+    "symbol": "Bh"
+  },
+  {
+    "name": "Dubnium",
+    "masse": 262,
+    "ordnungszahl": 105,
+    "symbol": "Db"
+  },
+  {
+    "name": "Lawrencium",
+    "masse": 262,
+    "ordnungszahl": 103,
+    "symbol": "Lr"
+  },
+  {
+    "name": "Seaborgium",
+    "masse": 263,
+    "ordnungszahl": 106,
+    "symbol": "Sg"
+  },
+  {
+    "name": "Hassium",
+    "masse": 265,
+    "ordnungszahl": 108,
+    "symbol": "Hs"
+  },
+  {
+    "name": "Meitnerium",
+    "masse": 266,
+    "ordnungszahl": 109,
+    "symbol": "Mt"
+  },
+  {
+    "name": "ununnilium",
+    "masse": 269,
+    "ordnungszahl": 110,
+    "symbol": "Uun"
+  },
+  {
+    "name": "unununium",
+    "masse": 272,
+    "ordnungszahl": 111,
+    "symbol": "Uuu"
+  },
+  {
+    "name": "ununbium",
+    "masse": 277,
+    "ordnungszahl": 112,
+    "symbol": "Uub"
+  }
+]
