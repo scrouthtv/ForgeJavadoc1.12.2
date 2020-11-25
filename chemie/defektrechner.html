@@ -23,11 +23,19 @@
 			function LoadFile() {
 				fetch("./elem.csv").then(
 					function(response) {
+						var contents = "";
 						if (response.status !== 200) {
 							console.log("Problem");
 						} else {
-							console.log(response);
+							const rdr = response.body.getReader();
+							rdr.read().then(({ done, value })) => {
+								if (done) {
+									return;
+								}
+								contents += value;
+							}
 						}
+						console.log(contents);
 					}
 					)
 			}
