@@ -28,12 +28,12 @@
 							console.log("Problem");
 						} else {
 							const rdr = response.body.getReader();
-							rdr.read().then(({ done, value })) => {
+							rdr.read().then(({ done, value }) => {
 								if (done) {
 									return;
 								}
 								contents += value;
-							}
+							});
 						}
 						console.log(contents);
 					}
