@@ -4,6 +4,8 @@
 		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
+		<title>Defektrechner</title>
+
 		<script>
 			// Nice Comma
 			function nc(str) {
@@ -24,10 +26,8 @@
 					.then(vrow => {
 						var np = vrow[0]["ordnungszahl"];
 						var nn = nnp - np;
-						var mt = vrow[0]["masse"];
 						document.getElementById("np").value = np;
 						document.getElementById("nn").value = nn;
-						document.getElementById("mt").value = mt.toString().replace(".", ",");
 					});
 				updateEq();
 			}
