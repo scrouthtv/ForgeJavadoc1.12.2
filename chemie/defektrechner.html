@@ -1,9 +1,83 @@
 <html>
-	<body>
-		<table>
-			<tr><td>Masse eines Elektrons: </td><td><input id="me" value="1,007276" /></td></tr>
-			<tr><td>Masse eines Neutrons: </td><td><input id="mn" value="1,008665" /></td></tr>
-			<tr><td>Masse eines Protons: </td><td><input id="mp" value="0,000549" /></td></tr>
+	<head>
+		<meta charset="utf-8">
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+		<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+		<script>
+			// Nice Comma
+			function nc(str) {
+				return str.toString().replace(".", ",").replace(",", "{,}");
+			}
+
+			function pf(str) {
+				return parseFloat(str.replace(",", "."));
+			}
+
+			function updateByElem() {
+				var elem = document.getElementById("el").value;
+				var el = elem.match("[A-Z][a-z]*");
+				document.getElementByI
+			}
+
+			function LoadFile() {
+				fetch("./elem.csv").then(
+					function(response) {
+						if (response.status !== 200) {
+							console.log("Problem");
+						} else {
+							console.log(response);
+						}
+					}
+					)
+			}
+
+			function updateByMass() {
+
+			}
+
+			function updateEq() {
+				var me = document.getElementById("me").value;
+				var mn = document.getElementById("mn").value;
+				var mp = document.getElementById("mp").value;
+				var ne = document.getElementById("ne").value;
+				var nn = document.getElementById("nn").value;
+				var np = document.getElementById("np").value;
+				var mt = document.getElementById("mt").value;
+
+				var def = Math.abs(pf(mt) - (pf(me) * pf(ne) + pf(mn) * pf(nn) + pf(mp) * pf(np)));
+
+				var eqn = "\\begin{align}";
+				eqn += "& \\tilde m - \\left ( n_{e^-} \\cdot m_{e^-} + n_{n^0} \\cdot m_{n^0} + n_{p^+} \\cdot n_{p^+} \\right ) \\\\ =&";
+				eqn += `${nc(mt)} \\, \\text{u} - \\left (`;
+				eqn += `${nc(ne)} \\cdot ${nc(me)} \\, \\text{u} + `;
+				eqn += `${nc(nn)} \\cdot ${nc(mn)} \\, \\text{u} + `;
+				eqn += `${nc(np)} \\cdot ${nc(mp)} \\, \\text{u} `;
+				eqn += ` \\right ) \\\\`;
+				eqn += `=& \\underline{\\underline{${nc(def)} \\, \\text{u}}}`;
+				eqn += "\\end{align}";
+				document.getElementById("eqn").innerHTML = eqn;
+			/*`\\begin{align} 
+			& \\tilde m - \\left ( n_{e^-} * m_{e^-} + n_{n^0} * m_{n^0} + n_{p^+} * n_{p^+} \\right ) \\\\
+			=& ` mt ` - \\left ( ` ne ` * ` me ` \\right )
+			\\end{align}`;*/
+				MathJax.typeset();
+			}
+		</script>
+	</head>
+	<body onload="updateEq()">
+		<table cellpadding="2">
+			<tr><td>Masse eines Elektrons: </td><td><input id="me" onchange="updateEq();" value="1,007276" /> u</td></tr>
+			<tr><td>Masse eines Neutrons: </td><td><input id="mn" onchange="updateEq();" value="1,008665" /> u</td></tr>
+			<tr class="sep"><td>Masse eines Protons: </td><td><input id="mp" oninput="updateEq();" value="0,000549" /> u</td></tr>
+			<tr><td>Element: </td><td><input id="el" onchange="updateByElem();" value="31P" /></td></tr>
+			<tr><td>Anzahl Elektronen: </td><td><input id="ne" onchange="updateByMass();" value="15" /></td></tr>
+			<tr><td>Anzahl Neutronen: </td><td><input id="nn" onchange="updateByMass();" value="16" /></td></tr>
+			<tr class="sep"><td>Anzahl Protonen: </td><td><input id="np" onchange="updateByMass();" value="15" /></td></tr>
+			<tr><td>Gemessene Masse: </td><td><input id="mt" onchange="updateByMass();" value="30,973762" /> u</td></tr>
 		</table>
+		Der Massendefekt beträgt: 
+		<p id="eqn">
+		</p>
 	</body>
 </html>
